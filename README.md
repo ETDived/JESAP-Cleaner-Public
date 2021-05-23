@@ -62,11 +62,11 @@ As seen above, you may separate different folder based on their FY. Change both 
 * Set *entity_type* to indicate which client (or data structure to be exact) that going to be processed. There are total 4 possible choice.
 * Set *have_space* by checking your data. If your data have space after it's first delimited/pipe like example below,
   ```python
-  | CoCd|DocumentNo|Year|Doc. Type|Doc. Date|Pstng Date|Period|Entry Dte|Time|User name|TCode......
+  | CoCd|DocumentNo|Year|Doc. Type|Doc. Date|Pstng Date|Period|Entry Dte|Time|Username|TCode......
   ```
   set the variable to **True**. While if your data does not have space after it's first delimited/pipe like example below,
   ```python
-  |CoCd|DocumentNo|Year|Doc. Type|Doc. Date|Pstng Date|Period|Entry Dte|Time|User name|TCode......
+  |CoCd|DocumentNo|Year|Doc. Type|Doc. Date|Pstng Date|Period|Entry Dte|Time|Username|TCode......
   ```
   set the variable to **False**.
 
